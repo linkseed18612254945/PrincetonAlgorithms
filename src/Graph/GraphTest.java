@@ -13,7 +13,7 @@ public class GraphTest
         In in = new In("C:\\Users\\51694\\PrincetonAlgorithms\\src\\Graph\\testData\\tinyG.txt");
         Graph G = new AdjListGraph(in);
         StdOut.println(G);
-        GraphPath p = new DepthFirstPaths(G, 0);
-        StdOut.println(p.pathTo(4));
+        ConnectedComponents cc = new ConnectedComponents(G);
+        System.out.println(cc);
     }
 }
