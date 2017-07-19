@@ -21,4 +21,5 @@ public class HeapSort<Item extends Comparable<Item>> extends SequenceSort<Item>
             sequence[i] = heap.removeTop();
         return sequence;
     }
+
 }

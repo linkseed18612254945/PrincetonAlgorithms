@@ -68,7 +68,7 @@ abstract class Heap<Item extends Comparable<Item>> implements PriorityQueue<Item
     abstract void sink(int k);
 
 
-    boolean notBiggerThan(Item x, Item y)
+    static boolean notBiggerThan(Comparable x, Comparable y)
     {
         int cmp = x.compareTo(y);
         return cmp <= 0;

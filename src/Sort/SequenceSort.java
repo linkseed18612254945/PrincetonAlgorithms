@@ -5,7 +5,7 @@ package Sort;
  */
 public abstract class SequenceSort<Item extends Comparable<Item>> implements Sort<Item>
 {
-    private Item[] sequence;
+    public Item[] sequence;
     public SequenceSort(Item[] sequence)
     {
         this.sequence = sequence;

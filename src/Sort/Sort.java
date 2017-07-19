@@ -3,6 +3,7 @@ package Sort;
 import Sort.ElementSort.*;
 import Sort.FasterSort.*;
 import Sort.HeapSort.HeapSort;
+import Sort.HeapSort.HeapSortInPlace;
 import Sort.NotCompareSort.CountingSort;
 
 import java.util.Arrays;
@@ -25,7 +26,7 @@ public interface Sort<Item extends Comparable<Item>>
         {
             s[i] = rand.nextInt(500) - 200;
         }
-        Sort<Integer> sort2 = new CountingSort(s);
+        Sort<Integer> sort2 = new HeapSortInPlace<>(s);
         System.out.println(Arrays.toString(sort2.sourceSequence()));
         System.out.println(Arrays.toString(sort2.sortedSequence()));
     }

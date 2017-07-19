@@ -21,18 +21,18 @@ public class MinHeap<Item extends Comparable<Item>> extends Heap<Item>
     @Override
     void sink(int k)
     {
-        if (k * 2 > n || notBiggerThan(pq[k], pq[minChild(2 * k, 2 * k + 1)]))
+        if (k * 2 > n || notBiggerThan(pq[k], pq[minChild(pq, 2 * k, 2 * k + 1, n)]))
         {
             return;
         }
-        int exchangeChild = minChild(2 * k, 2 * k + 1);
+        int exchangeChild = minChild(pq, 2 * k, 2 * k + 1, n);
         exchange(k, exchangeChild);
         sink(exchangeChild);
     }
 
-    private int minChild(int i, int j)
+    static int minChild(Comparable[] sequence, int i, int j, int n)
     {
-        if (j > n || notBiggerThan(pq[i], pq[j]))
+        if (j > n || notBiggerThan(sequence[i], sequence[j]))
             return i;
         return j;
     }

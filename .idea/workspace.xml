@@ -2,62 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5542c6df-fe19-4c63-91c1-e18753ba121e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/LinkedList/AList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/LinkedList/DLListCircle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/LinkedList/LinkedList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/LinkedList/SLList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/ALBag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/ALStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/ArrayQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/Bag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/LLBag.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/LLQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/LLStack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/Queue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/StackBagQueue/Stack.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/unionFind/ArrayQuickFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/unionFind/ArrayQuickUion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/unionFind/ArrayWeightedQuickUnion.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Fundamental/unionFind/UnionFind.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/BinarySearchTree/BST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/BinarySearchTree/BSTtest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/BinarySearchTree/RedBlackBST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/BinarySearchTree/SearchTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/HashTable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/ArrayST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/BasicTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/BinarySearchST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/FrequencyCounter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/GPA.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/OST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/PhoneNumber.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/ST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/SequentialSearchST.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/Test.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/SymbolTable/note" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ElementSort/BinaryInsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ElementSort/BubbleSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ElementSort/InsertionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ElementSort/SelectionSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/ElementSort/ShellSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/MergeSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/MergeSortBU.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/MergeSortX.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/QuickSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/QuickSortInsert.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/FasterSort/QuickSortMedianOfTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/Heap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/MaxHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/PriorityQueue.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/NotCompareSort/CountingSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/SequenceSort.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4/SymbolTable/AssociationArray.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4/SymbolTable/MyDate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week4/SymbolTable/ST.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/Pack01.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DP/TwoCpuProblem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Search/Haffman/HaffmanTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/HeapSortInPlace.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/MyQuickFindUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/MyQuickUnionUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/MyWQUPC.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/MyWeightedQUUF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/Percolation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/SocialNetWork.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/SuccessorDelete.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/UF.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/UFTest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/networkLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PrincetonAlgorithms/week1/unionFind/unionFindSpecific.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/MyQuickFindUF.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/MyQuickUnionUF.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/MyWQUPC.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/MyWeightedQUUF.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/Percolation.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/SocialNetWork.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/SuccessorDelete.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/UF.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/UFTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/networkLog" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/week1/unionFind/unionFindSpecific.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/HeapSort/Heap.java" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/Heap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java" afterPath="$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/SequenceSort.java" afterPath="$PROJECT_DIR$/src/Sort/SequenceSort.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Sort/Sort.java" afterPath="$PROJECT_DIR$/src/Sort/Sort.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,7 +44,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="C:\Users\51694\PrincetonAlgorithms" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -76,73 +52,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="SelectionSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/ElementSort/SelectionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="16" column="4" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
-              <folding>
-                <element signature="method#sort#0;class#SelectionSort#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/NotCompareSort/CountingSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="621">
+              <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Heap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/Heap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1880">
-              <caret line="85" column="2" lean-forward="false" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="57" />
-              <folding>
-                <element signature="method#Heap#0;class#Heap#0" expanded="true" />
-                <element signature="method#Heap#1;class#Heap#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#565#566#0" expanded="true" />
-                <element signature="e#608#609#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="method#add#0;class#Heap#0" expanded="true" />
-                <element signature="e#855#856#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-                <element signature="method#removeTop#0;class#Heap#0" expanded="true" />
-                <element signature="method#notBiggerThan#0;class#Heap#0" expanded="true" />
-                <element signature="method#exchange#0;class#Heap#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-              <folding>
-                <element signature="method#MinHeap#0;class#MinHeap#0" expanded="true" />
-                <element signature="method#MinHeap#1;class#MinHeap#0" expanded="true" />
-                <element signature="method#sink#0;class#MinHeap#0" expanded="true" />
-                <element signature="method#minChild#0;class#MinHeap#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -151,44 +67,107 @@
       <file leaf-file-name="HeapSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="160">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+              <folding>
+                <element signature="method#sort#0;class#HeapSort#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RedBlackBST.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Search/BinarySearchTree/RedBlackBST.java">
+      <file leaf-file-name="MinHeap.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-379">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="880">
+              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <folding>
+                <element signature="method#MinHeap#0;class#MinHeap#0" expanded="true" />
+                <element signature="method#MinHeap#1;class#MinHeap#0" expanded="true" />
+                <element signature="method#swim#0;class#MinHeap#0" expanded="true" />
+                <element signature="method#minChild#0;class#MinHeap#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BSTtest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Search/BinarySearchTree/BSTtest.java">
+      <file leaf-file-name="HeapSortInPlace.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/HeapSortInPlace.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/QuickSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="929">
-              <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="1480">
+              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#sort#0;class#QuickSort#0" expanded="true" />
-                <element signature="method#quickSort#0;class#QuickSort#0" expanded="true" />
-                <element signature="method#main#0;class#QuickSort#0" expanded="true" />
+                <element signature="e#287#288#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="method#sort#0;class#HeapSortInPlace#0" expanded="true" />
+                <element signature="method#sink#0;class#HeapSortInPlace#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HaffmanTree.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Search/Haffman/HaffmanTree.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding>
+                <element signature="method#HaffmanTree#0;class#HaffmanTree#0" expanded="true" />
+                <element signature="docComment;method#buildTree#0;class#HaffmanTree#0" expanded="true" />
+                <element signature="docComment;method#minTwoNodeIndex#0;class#HaffmanTree#0" expanded="true" />
+                <element signature="method#minTwoNodeIndex#0;class#HaffmanTree#0" expanded="true" />
+                <element signature="method#Node#0;class#Node#0" expanded="true" />
+                <element signature="e#1232#1233#0" expanded="true" />
+                <element signature="e#1261#1262#0" expanded="true" />
+                <element signature="e#1306#1307#0" expanded="true" />
+                <element signature="e#1342#1343#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pack01.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DP/Pack01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="469">
+              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#Item#0;class#Item#0" expanded="true" />
+                <element signature="method#Pack01#0;class#Pack01#0" expanded="true" />
+                <element signature="method#main#0;class#Pack01#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoCpuProblem.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/DP/TwoCpuProblem.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashTable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Search/HashTable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinkedList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/LinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -196,8 +175,8 @@
       <file leaf-file-name="SequenceSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/SequenceSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
+            <state relative-caret-position="360">
+              <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               <folding>
                 <element signature="method#sortedSequence#0;class#SequenceSort#0" expanded="true" />
                 <element signature="method#less#0;class#SequenceSort#0" expanded="true" />
@@ -237,11 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Search/BinarySearchTree/NonerecursiveBST.java" />
-        <option value="$PROJECT_DIR$/src/Search/BinarySearchTree/BST.java" />
-        <option value="$PROJECT_DIR$/src/Search/BinarySearchTree/SearchTree.java" />
-        <option value="$PROJECT_DIR$/src/Search/BinarySearchTree/RedBlackBST.java" />
-        <option value="$PROJECT_DIR$/src/Search/SymbolTable/PhoneNumber.java" />
         <option value="$PROJECT_DIR$/src/Fundamental/LinkedList/DLList.java" />
         <option value="$PROJECT_DIR$/src/Fundamental/LinkedList/DLListRecicle.java" />
         <option value="$PROJECT_DIR$/src/Fundamental/LinkedList/DLListDouble.java" />
@@ -279,23 +253,28 @@
         <option value="$PROJECT_DIR$/src/Sort/FasterSort/QuickSortMedianOfTree.java" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort/CompleteBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort/PriorityQueue.java" />
-        <option value="$PROJECT_DIR$/src/Sort/SequenceSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort/MinPQ.java" />
-        <option value="$PROJECT_DIR$/src/Sort/HeapSort/Heap.java" />
-        <option value="$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java" />
         <option value="$PROJECT_DIR$/src/Sort/HeapSort/MaxHeap.java" />
-        <option value="$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/CountingSort.java" />
         <option value="$PROJECT_DIR$/src/Sort/NotCompareSort/CountingSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort/InPlaceHeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/SequenceSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort/Heap.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java" />
+        <option value="$PROJECT_DIR$/src/Sort/HeapSort/HeapSortInPlace.java" />
         <option value="$PROJECT_DIR$/src/Sort/Sort.java" />
+        <option value="$PROJECT_DIR$/src/Search/Haffman/HaffmanTree.java" />
+        <option value="$PROJECT_DIR$/src/DP/Bag01.java" />
+        <option value="$PROJECT_DIR$/src/DP/Pack01.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="550" />
-    <option name="y" value="96" />
-    <option name="width" value="2734" />
-    <option name="height" value="1742" />
+    <option name="x" value="-13" />
+    <option name="y" value="-13" />
+    <option name="width" value="2762" />
+    <option name="height" value="1770" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -329,74 +308,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Sort" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Graph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PrincetonAlgorithms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Fundamental" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -420,7 +331,7 @@
       <recent name="C:\Users\51694\PrincetonAlgorithms\src\Graph" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Sort">
+  <component name="RunManager" selected="Application.Pack01">
     <configuration default="false" name="Sort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -429,26 +340,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Sort.Sort" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="PrincetonAlgorithms" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="Sort.FasterSort.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="Sort.FasterSort.QuickSort" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -509,6 +400,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="Sort.HeapSort.MinPQ" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PrincetonAlgorithms" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Pack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="DP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="DP.Pack01" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -727,18 +638,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-      <item index="1" class="java.lang.String" itemvalue="Application.QuickSort" />
-      <item index="2" class="java.lang.String" itemvalue="Application.QuickSortX" />
-      <item index="3" class="java.lang.String" itemvalue="Application.QuickSortMedianOfTree" />
-      <item index="4" class="java.lang.String" itemvalue="Application.MinPQ" />
+      <item index="1" class="java.lang.String" itemvalue="Application.QuickSortX" />
+      <item index="2" class="java.lang.String" itemvalue="Application.QuickSortMedianOfTree" />
+      <item index="3" class="java.lang.String" itemvalue="Application.MinPQ" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Pack01" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.Sort" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MinPQ" />
-        <item index="2" class="java.lang.String" itemvalue="Application.QuickSortMedianOfTree" />
-        <item index="3" class="java.lang.String" itemvalue="Application.QuickSortX" />
-        <item index="4" class="java.lang.String" itemvalue="Application.QuickSort" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Pack01" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Sort" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MinPQ" />
+        <item index="3" class="java.lang.String" itemvalue="Application.QuickSortMedianOfTree" />
+        <item index="4" class="java.lang.String" itemvalue="Application.QuickSortX" />
       </list>
     </recent_temporary>
   </component>
@@ -756,44 +667,86 @@
       <option name="presentableId" value="Default" />
       <updated>1490792441633</updated>
     </task>
+    <task id="LOCAL-00001" summary="718">
+      <created>1500364186910</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1500364186910</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="550" y="96" width="2734" height="1742" extended-state="0" />
+    <frame x="-13" y="-13" width="2762" height="1770" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31991816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.313779" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18382914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18188679" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3950786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39495224" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3950786" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32742155" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946795" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31988874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3281037" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18382914" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946795" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="718" />
+    <option name="LAST_COMMIT_MESSAGE" value="718" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,7 +758,7 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="20" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -814,49 +767,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Search/HashTable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Search/SymbolTable/PhoneNumber.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="27" column="4" lean-forward="false" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/DLListDouble.java" />
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/StackBagQueue/Bag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="9" column="15" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/StackBagQueue/LLStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="65" column="32" lean-forward="false" selection-start-line="65" selection-start-column="32" selection-end-line="65" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/StackBagQueue/ALStack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fundamental/StackBagQueue/LLBag.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -955,13 +865,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/unionFind/ArrayWeightedQuickUnion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="52" column="39" lean-forward="false" selection-start-line="50" selection-start-column="1" selection-end-line="52" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fundamental/unionFind/ArrayQuickUion.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
@@ -976,24 +879,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/SLList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2580">
-          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/MergeSortBU.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="7" column="74" lean-forward="false" selection-start-line="7" selection-start-column="62" selection-end-line="7" selection-end-column="74" />
+          <folding>
+            <element signature="docComment;class#MergeSort#0" expanded="false" />
+            <element signature="e#213#214#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1002,6 +896,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
           <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
+          <folding>
+            <element signature="docComment;class#BubbleSort#0" expanded="false" />
+            <element signature="e#214#215#0" expanded="false" />
+            <element signature="e#238#239#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1016,13 +915,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="31" column="13" lean-forward="false" selection-start-line="31" selection-start-column="13" selection-end-line="31" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/MergeSortX.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="method#sort#0;class#InsertionSort#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1031,8 +926,8 @@
         <state relative-caret-position="360">
           <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding>
-            <element signature="e#252#253#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#252#253#0" expanded="false" />
+            <element signature="e#276#277#0" expanded="false" />
             <element signature="method#quickSort#0;class#QuickSortInsert#0" expanded="true" />
           </folding>
         </state>
@@ -1043,8 +938,8 @@
         <state relative-caret-position="539">
           <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
-            <element signature="e#207#208#0" expanded="true" />
-            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="false" />
+            <element signature="e#231#232#0" expanded="false" />
             <element signature="method#treeMedian#0;class#QuickSortMedianOfTree#0" expanded="true" />
             <element signature="method#main#0;class#QuickSortMedianOfTree#0" expanded="true" />
           </folding>
@@ -1065,6 +960,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1320">
           <caret line="60" column="4" lean-forward="true" selection-start-line="60" selection-start-column="4" selection-end-line="60" selection-end-column="4" />
+          <folding>
+            <element signature="method#removeFirst#0;class#AList#0" expanded="false" />
+            <element signature="method#main#0;class#AList#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1081,6 +980,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
           <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="e#46394#46395#0" expanded="false" />
+            <element signature="e#46458#46459#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1089,7 +992,7 @@
         <state relative-caret-position="400">
           <caret line="15" column="11" lean-forward="false" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
           <folding>
-            <element signature="method#sort#0;class#BinaryInsertionSort#0" expanded="true" />
+            <element signature="method#sort#0;class#BinaryInsertionSort#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1099,44 +1002,10 @@
         <state relative-caret-position="760">
           <caret line="32" column="5" lean-forward="false" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
           <folding>
-            <element signature="method#MaxHeap#0;class#MaxHeap#0" expanded="true" />
-            <element signature="method#MaxHeap#1;class#MaxHeap#0" expanded="true" />
-            <element signature="method#swim#0;class#MaxHeap#0" expanded="true" />
-            <element signature="method#sink#0;class#MaxHeap#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="13" column="5" lean-forward="false" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-          <folding>
-            <element signature="method#MinHeap#0;class#MinHeap#0" expanded="true" />
-            <element signature="method#MinHeap#1;class#MinHeap#0" expanded="true" />
-            <element signature="method#sink#0;class#MinHeap#0" expanded="true" />
-            <element signature="method#minChild#0;class#MinHeap#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/Heap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1880">
-          <caret line="85" column="2" lean-forward="false" selection-start-line="85" selection-start-column="2" selection-end-line="85" selection-end-column="57" />
-          <folding>
-            <element signature="method#Heap#0;class#Heap#0" expanded="true" />
-            <element signature="method#Heap#1;class#Heap#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#565#566#0" expanded="true" />
-            <element signature="e#608#609#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="method#add#0;class#Heap#0" expanded="true" />
-            <element signature="e#855#856#0" expanded="true" />
-            <element signature="e#883#884#0" expanded="true" />
-            <element signature="method#removeTop#0;class#Heap#0" expanded="true" />
-            <element signature="method#notBiggerThan#0;class#Heap#0" expanded="true" />
-            <element signature="method#exchange#0;class#Heap#0" expanded="true" />
+            <element signature="method#MaxHeap#0;class#MaxHeap#0" expanded="false" />
+            <element signature="method#MaxHeap#1;class#MaxHeap#0" expanded="false" />
+            <element signature="method#swim#0;class#MaxHeap#0" expanded="false" />
+            <element signature="method#sink#0;class#MaxHeap#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1151,53 +1020,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/SequenceSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="21" column="4" lean-forward="false" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding>
-            <element signature="method#sortedSequence#0;class#SequenceSort#0" expanded="true" />
-            <element signature="method#less#0;class#SequenceSort#0" expanded="true" />
-            <element signature="method#exchange#0;class#SequenceSort#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="20" column="20" lean-forward="false" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/NotCompareSort/CountingSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="809">
           <caret line="33" column="32" lean-forward="false" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="929">
-          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#sort#0;class#QuickSort#0" expanded="true" />
-            <element signature="method#quickSort#0;class#QuickSort#0" expanded="true" />
-            <element signature="method#main#0;class#QuickSort#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="17" column="5" lean-forward="false" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
           <folding />
         </state>
       </provider>
@@ -1214,6 +1040,193 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="47" column="9" lean-forward="false" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#sort#0;class#QuickSort#0" expanded="true" />
+            <element signature="method#quickSort#0;class#QuickSort#0" expanded="true" />
+            <element signature="method#main#0;class#QuickSort#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/MergeSortX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="15" column="13" lean-forward="true" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/FasterSort/MergeSortBU.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="e#187#188#0" expanded="false" />
+            <element signature="e#211#212#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph/UndirectedGraph/ConnectedComponents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fundamental/unionFind/ArrayWeightedQuickUnion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1400">
+          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="method#connect#0;class#ArrayWeightedQuickUnion#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/SLList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2341">
+          <caret line="168" column="5" lean-forward="true" selection-start-line="168" selection-start-column="5" selection-end-line="168" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/SequenceSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          <folding>
+            <element signature="method#sortedSequence#0;class#SequenceSort#0" expanded="true" />
+            <element signature="method#less#0;class#SequenceSort#0" expanded="true" />
+            <element signature="method#exchange#0;class#SequenceSort#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Fundamental/LinkedList/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="23" lean-forward="false" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/HashTable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="381">
+          <caret line="73" column="24" lean-forward="true" selection-start-line="73" selection-start-column="24" selection-end-line="73" selection-end-column="24" />
+          <folding>
+            <element signature="method#Heap#0;class#Heap#0" expanded="false" />
+            <element signature="method#Heap#1;class#Heap#0" expanded="false" />
+            <element signature="method#add#0;class#Heap#0" expanded="false" />
+            <element signature="method#removeTop#0;class#Heap#0" expanded="false" />
+            <element signature="method#exchange#0;class#Heap#0" expanded="false" />
+            <element signature="method#resize#0;class#Heap#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/HeapSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding>
+            <element signature="method#sort#0;class#HeapSort#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/MinHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="880">
+          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="method#MinHeap#0;class#MinHeap#0" expanded="true" />
+            <element signature="method#MinHeap#1;class#MinHeap#0" expanded="true" />
+            <element signature="method#swim#0;class#MinHeap#0" expanded="true" />
+            <element signature="method#minChild#0;class#MinHeap#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="30" column="68" lean-forward="true" selection-start-line="30" selection-start-column="68" selection-end-line="30" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/HeapSort/HeapSortInPlace.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1480">
+          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#287#288#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="method#sort#0;class#HeapSortInPlace#0" expanded="true" />
+            <element signature="method#sink#0;class#HeapSortInPlace#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Search/Haffman/HaffmanTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding>
+            <element signature="method#HaffmanTree#0;class#HaffmanTree#0" expanded="true" />
+            <element signature="docComment;method#buildTree#0;class#HaffmanTree#0" expanded="true" />
+            <element signature="docComment;method#minTwoNodeIndex#0;class#HaffmanTree#0" expanded="true" />
+            <element signature="method#minTwoNodeIndex#0;class#HaffmanTree#0" expanded="true" />
+            <element signature="method#Node#0;class#Node#0" expanded="true" />
+            <element signature="e#1232#1233#0" expanded="true" />
+            <element signature="e#1261#1262#0" expanded="true" />
+            <element signature="e#1306#1307#0" expanded="true" />
+            <element signature="e#1342#1343#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/Pack01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="469">
+          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#Item#0;class#Item#0" expanded="true" />
+            <element signature="method#Pack01#0;class#Pack01#0" expanded="true" />
+            <element signature="method#main#0;class#Pack01#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DP/TwoCpuProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="26" lean-forward="false" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding />
         </state>
       </provider>
