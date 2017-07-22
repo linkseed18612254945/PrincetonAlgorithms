@@ -10,7 +10,7 @@ import java.util.Iterator;
  */
 public class LLStack<Item> implements Stack<Item>
 {
-    private LinkedList<Item> items;
+    LinkedList<Item> items;
 
     public LLStack()
     {

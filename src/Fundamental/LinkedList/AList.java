@@ -8,6 +8,7 @@ import java.util.NoSuchElementException;
  */
 public class AList<Item> implements Iterable<Item>
 {
+    public static int a = 1;
     private Item[] items;
     private int end;
     private int head;
