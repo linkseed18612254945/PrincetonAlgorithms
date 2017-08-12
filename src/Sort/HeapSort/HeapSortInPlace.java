@@ -1,7 +1,7 @@
 package Sort.HeapSort;
 
 import static Sort.HeapSort.Heap.notBiggerThan;
-import static Sort.HeapSort.MinHeap.minChild;
+import static Sort.HeapSort.MaxHeap.*;
 
 /**
  * Created by 51694 on 2017/7/18.
@@ -16,27 +16,49 @@ public class HeapSortInPlace<Item extends Comparable<Item>> extends HeapSort<Ite
     @Override
     public Item[] sort(Item[] sequence)
     {
-        int n = sequence.length;
-        for (int k = n / 2; k >= 1; k-=1)
-            sink(sequence, k, n);
-        while (n > 1)
+        buildMaxHeap(sequence);
+        for (int i = sequence.length - 1; i >= 0; i -= 1)
         {
-            exchange(sequence, 1, n);
-            n -= 1;
-            sink(sequence, 1, n);
+            exchange(sequence, i, 0);
+            sink(sequence, 0, i);
         }
         return sequence;
     }
+
+    private  void buildMaxHeap(Item[] sequence)
+    {
+        for (int i = sequence.length / 2 - 1; i >= 0; i -= 1)
+        {
+            sink(sequence, i, sequence.length);
+        }
+    }
+
     
     private void sink(Item[] pq, int k, int n)
     {
-        if (k * 2 > n || notBiggerThan(pq[k], pq[minChild(pq, 2 * k, 2 * k + 1, n)]))
+        if (k >= n / 2)
         {
             return;
         }
-        int exchangeChild = minChild(pq, 2 * k, 2 * k + 1, n);
-        exchange(pq, k, exchangeChild);
-        sink(pq, exchangeChild, n);
+        int maxChild = maxChild(pq, k , n);
+        if (bigThan(pq[k], pq[maxChild]))
+            return;
+        exchange(pq, k, maxChild);
+        sink(pq, maxChild, n);
     }
 
+    private int maxChild(Item[] sequence, int k, int n)
+    {
+        int left = (k + 1) * 2 - 1;
+        int right = (k + 1) * 2;
+        if (right >= n)
+            return left;
+        return bigThan(sequence[left], sequence[right]) ? left: right;
+    }
+
+    private boolean bigThan(Item a, Item b)
+    {
+        int cmp = a.compareTo(b);
+        return cmp >= 0;
+    }
 }

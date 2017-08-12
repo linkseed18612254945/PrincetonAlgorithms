@@ -1,4 +1,6 @@
-package Sort;
+package Sort.SortQuestions;
+
+import Sort.Sort;
 
 import java.util.Scanner;
 

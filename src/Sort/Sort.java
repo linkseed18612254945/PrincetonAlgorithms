@@ -24,7 +24,7 @@ public interface Sort<Item extends Comparable<Item>>
         Random rand = new Random();
         for (int i = 0; i < n; i += 1)
         {
-            s[i] = rand.nextInt(500) - 200;
+            s[i] = rand.nextInt(200);
         }
         Sort<Integer> sort2 = new HeapSortInPlace<>(s);
         System.out.println(Arrays.toString(sort2.sourceSequence()));

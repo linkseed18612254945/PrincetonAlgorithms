@@ -1,5 +1,8 @@
-package Sort;
+package Sort.SortQuestions;
 
+import Sort.Sort;
+
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -187,10 +190,78 @@ public class SortExercise
         return (A[left] > A[right])? left: right;
     }
 
-    public static void shell(int[] A)
+    public static int[] shell(int[] A)
     {
-
+        int gap = 3;
+        for (int i = gap; i >= 1; i -= 1)
+        {
+            for (int j = i; j < A.length; j += 1)
+            {
+                int insertIndex = j;
+                int insertItem = A[j];
+                while (insertIndex >= i && A[insertIndex - i] > insertItem)
+                {
+                    exchange(A, insertIndex, insertIndex - i);
+                    insertIndex -= i;
+                }
+                A[insertIndex] = insertItem;
+            }
+        }
+        return A;
     }
+
+    public static int[] counting(int[] A)
+    {
+        int min = A[0];
+        int max = A[0];
+        for (int i = 1; i < A.length; i += 1)
+        {
+            min = Math.min(min, A[i]);
+            max = Math.max(max, A[i]);
+        }
+        int[] bucket = new int[max - min + 1];
+        for (int a: A)
+        {
+            bucket[a - min] += 1;
+        }
+        int k = 0;
+        for (int i = 0; i < bucket.length; i += 1)
+        {
+            for (int j = 0; j < bucket[i]; j += 1)
+            {
+                A[k] = i + min;
+                k += 1;
+            }
+        }
+        return A;
+    }
+
+    public static int[] radix(int[] A)
+    {
+        int level = 2;
+        ArrayList<Integer>[] bucket = (ArrayList<Integer>[]) new Object[10];
+        for (int x = 0; x < level; x+= 1)
+        {
+            radixWithOne(A, bucket, x);
+        }
+        return A;
+    }
+
+    private static void  radixWithOne(int[] A, ArrayList<Integer>[]bucket, int x)
+    {
+        for (int i = 0; i < A.length; i += 1)
+            bucket[(int) (A[i] / Math.pow(10, x)) % 10].add(A[i]);
+        int k = 0;
+        for (int i = 0; i < bucket.length; i += 1)
+        {
+            for (Integer item: bucket[i])
+            {
+                A[k] = item;
+                k += 1;
+            }
+        }
+    }
+
 
     private static void exchange(int[] arr, int i, int j)
     {
@@ -207,7 +278,7 @@ public class SortExercise
         int[] arr = new int[n];
         for (int i = 0; i < n; i += 1)
             arr[i] = sc.nextInt();
-        int[] res = heap(arr);
+        int[] res = radix(arr);
         System.out.println(Arrays.toString(res));
     }
 

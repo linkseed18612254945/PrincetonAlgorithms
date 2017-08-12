@@ -29,7 +29,7 @@ public class MaxHeap<Item extends Comparable<Item>> extends Heap<Item>
         sink(exchangeChild);
     }
 
-    private int maxChild(int i, int j)
+    int maxChild(int i, int j)
     {
         if (j > n || notBiggerThan(pq[j], pq[i]))
             return i;
