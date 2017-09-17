@@ -8,7 +8,7 @@ import java.util.Iterator;
 /**
  * Created by 51694 on 2017/7/10.
  */
-public class LLStack<Item> implements Stack<Item>
+public class LLStack<Item extends Comparable<Item>> implements Stack<Item>
 {
     LinkedList<Item> items;
 
@@ -55,16 +55,59 @@ public class LLStack<Item> implements Stack<Item>
         return items.iterator();
     }
 
+    public Item popBottom()
+    {
+        Item top = pop();
+        if (isEmpty())
+            return top;
+        else
+        {
+            Item bottom =  popBottom();
+            push(top);
+            return bottom;
+        }
+    }
+
+    public void reverse()
+    {
+        if (isEmpty())
+            return;
+        Item bottom = popBottom();
+        reverse();
+        push(bottom);
+    }
+
+    public void sort()
+    {
+        int count;
+        LLStack<Item> tempStack = new LLStack<>();
+        while (!isEmpty())
+        {
+            count = 0;
+            Item top = pop();
+            while(!tempStack.isEmpty() && tempStack.peek().compareTo(top) > 0)
+            {
+                push(tempStack.pop());
+                count += 1;
+            }
+            tempStack.push(top);
+            for (int i = 0; i < count;i += 1)
+                tempStack.push(pop());
+        }
+        items = tempStack.items;
+    }
+
     public static void main(String[] args)
     {
-        Stack<String> s = new LLStack<>();
-        s.push("po");
-        s.push("ui");
-        s.push("mn");
-        for (String i : s)
-        {
-            System.out.println(i);
-        }
+        LLStack<Integer> s = new LLStack<>();
+        s.push(11);
+        s.push(2);
+        s.push(7);
+        s.push(3);
+        s.push(15);
+        s.print();
+        s.sort();
+        s.print();
     }
 
 }

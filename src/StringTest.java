@@ -1,5 +1,6 @@
 import java.io.File;
 import java.util.Scanner;
+import java.util.Stack;
 
 /**
  * Created by 51694 on 2017/7/22.
@@ -18,5 +19,6 @@ public class StringTest
             s.append(input.next());
         }
         System.out.println(s);
+        Stack x = new Stack();
     }
 }

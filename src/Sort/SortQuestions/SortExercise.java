@@ -4,6 +4,7 @@ import Sort.Sort;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Random;
 import java.util.Scanner;
 
 /**
@@ -114,39 +115,44 @@ public class SortExercise
 
     public static int[] quick(int[] A)
     {
-        quick(A, 0 , A.length - 1);
+        Random random = new Random();
+        quick(A, 0 , A.length - 1, random);
         return A;
     }
 
-    private static void quick(int[] A, int lo, int hi)
+    private static void quick(int[] A, int lo, int hi, Random random)
     {
-        if (hi <= lo)
+        if (hi - lo <= 1)
             return;
-        int mid = partition(A, lo, hi);
-        quick(A, lo ,mid - 1);
-        quick(A, mid + 1, hi);
+        int sign = random.nextInt(hi - lo + 1) + lo;
+        int mid = partition(A, lo, hi, sign);
+        quick(A, lo ,mid - 1, random);
+        quick(A, mid + 1, hi, random);
     }
 
-    private static int partition(int[] A, int lo, int hi)
+    private static int partition(int[] A, int lo, int hi, int sign)
     {
+        if (sign < lo || sign > hi)
+            throw new IllegalArgumentException();
         int i = lo;
         int j = hi;
         while (i < j)
         {
-            if (A[j] >=  A[lo])
+            if (A[j] >=  A[sign])
             {
                 j -= 1;
                 continue;
             }
-            if (A[i] <=  A[lo])
+            if (A[i] <=  A[sign])
             {
                 i += 1;
                 continue;
             }
             exchange(A, i, j);
         }
-        exchange(A, lo, j);
-        return j;
+        int exchangeIndex = j < sign ? (A[j] >= A[sign] ? j: j + 1) : j;
+        exchange(A, sign, exchangeIndex);
+        return exchangeIndex;
     }
 
     public static int[] heap(int[] A)
@@ -278,8 +284,9 @@ public class SortExercise
         int[] arr = new int[n];
         for (int i = 0; i < n; i += 1)
             arr[i] = sc.nextInt();
-        int[] res = radix(arr);
-        System.out.println(Arrays.toString(res));
+        System.out.println(Arrays.toString(arr));
+        quick(arr);
+        System.out.println(Arrays.toString(arr));
     }
 
 }
